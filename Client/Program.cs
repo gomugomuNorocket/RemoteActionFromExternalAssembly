@@ -12,7 +12,7 @@ namespace Client
 
         static void Main(string[] args)
         {
-            log.Info("Starting...Press Z to exit.");
+            log.Info("Starting...Press 'Exit' to exit.");
             ///Initalize Manager
             ClientManager.Initalize();
             ///Starting the client connection

@@ -17,9 +17,7 @@ namespace UnitTest
             int newYPos = 500;
             try
             {
-
                 ActionScript.MoveMouse(newXPos, newYPos);
-
 
             }
             catch (Exception ex)
