@@ -7,3 +7,6 @@ C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\obj
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\bin\Debug\Newtonsoft.Json.dll
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\bin\Debug\log4net.dll
+C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\bin\Debug\log4net.xml
+C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\Core\obj\Debug\Core.csprojAssemblyReference.cache

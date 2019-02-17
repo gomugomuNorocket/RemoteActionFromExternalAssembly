@@ -41,3 +41,5 @@ C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest\bin\Debug\UnitTest.dll.config
+C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\UnitTest\bin\Debug\log4net.xml
