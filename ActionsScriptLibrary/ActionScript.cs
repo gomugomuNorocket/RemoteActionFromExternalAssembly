@@ -13,10 +13,8 @@ namespace ActionsScriptLibrary
 {
     public class ActionScript
     {
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger("ActionScript");
-
+ 
         #region Select Window
-
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         static extern bool ShowWindow(IntPtr hWnd, ShowWindowEnum flags);
@@ -45,8 +43,7 @@ namespace ActionsScriptLibrary
         public void SelectWindow(string windowName)
         {
             try
-            {                
-                log.InfoFormat("Select Window: '{0}' starting....", windowName);
+            {           
                 List<Process> Processes = Process.GetProcessesByName(windowName).ToList();
                 if (Processes != null && Processes.Count > 0)
                 {
@@ -68,9 +65,7 @@ namespace ActionsScriptLibrary
                 else
                 {
                     throw new Exception(string.Format("Process with name: '{0}' doens't exist!", windowName));
-                }   
-                log.DebugFormat("Window '{0}' selected successfully.", windowName);
-
+                }  
             }
             catch (Exception ex)
             {
@@ -90,22 +85,21 @@ namespace ActionsScriptLibrary
             try
             {
                 SetCursorPos((int)x, (int)y);
-                log.DebugFormat("Mouse moved successfully.");
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+        #endregion
+
+        #region Click Mouse
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint cButtons, uint dwExtraInfo);
         private const int MOUSEEVENTF_LEFTDOWN = 0x02;
         private const int MOUSEEVENTF_LEFTUP = 0x04;
         private const int MOUSEEVENTF_RIGHTDOWN = 0x08;
-        private const int MOUSEEVENTF_RIGHTUP = 0x10;
-        #endregion
-
-        #region Click Mouse
+        private const int MOUSEEVENTF_RIGHTUP = 0x10;      
         /// <summary>
         /// Click Mouse
         /// </summary>
@@ -116,14 +110,12 @@ namespace ActionsScriptLibrary
                 uint X = (uint)Cursor.Position.X;
                 uint Y = (uint)Cursor.Position.Y;
                 mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, X, Y, 0, 0);
-                log.DebugFormat("Mouse clicked successfully.");
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-
         #endregion
 
         #region Send Text
@@ -134,14 +126,13 @@ namespace ActionsScriptLibrary
         {
             try
             {
-                log.InfoFormat("Text Received: '{0}'", text);
+                Console.WriteLine(text);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-
         #endregion
 
     }

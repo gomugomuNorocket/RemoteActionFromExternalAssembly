@@ -122,28 +122,13 @@ namespace Server.Hub
         {
             try
             {
-                if(result.Result == Result.Success)
-                {
-                    log.InfoFormat("Client successfully executed method: '{0}'", result.Action);
-                }
-                else if (result.Result == Result.Failed)
-                {
-                    log.ErrorFormat("Client failed to execute method: '{0}' with error: '{1}'", result.Action, result.FailReason);
-                }
-                else
-                {
-                    throw new Exception("Result type is unknown.");
-                }
+                result.GetResultMessage();
             }
             catch (Exception ex)
             {
                 log.ErrorFormat("'SetActionResultResponse' Method failed with error: '{0}'", ex.GetExceptionMessage());
             }
         }
-
-
-
-
         /// <summary>
         /// Client request action commands
         /// </summary>

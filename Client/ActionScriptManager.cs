@@ -118,19 +118,16 @@ namespace Client
                 }     
 
                 methodInfo.Invoke(instance, parameters);
-
-                log.InfoFormat("Action: '{0}' finished successfully.", method);
-
                 actionScriptResult.Result = Result.Success;
 
             }
             catch (Exception ex)
             {
-                log.ErrorFormat("Failed to Invoke Action: '{1}' with error: '{0}'", ex.GetExceptionMessage(), method);
-
                 actionScriptResult.Result = Result.Failed;
                 actionScriptResult.FailReason = ex.GetExceptionMessage();
             }
+
+            actionScriptResult.GetResultMessage();
 
             return actionScriptResult;
         }

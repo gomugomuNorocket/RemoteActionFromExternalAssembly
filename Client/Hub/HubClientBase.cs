@@ -89,8 +89,9 @@ namespace Client.Hub
 
             hub.On<string, object[]> ("invokeAction", (method, parameters) =>
             {
-               
+                
                 ActionScriptResult result = ActionScriptManager.InvokeAction(method, parameters);
+               
                 ///Informs the server about the result
                 this.CallServerMethod("SetActionResultResponse", result);
 
