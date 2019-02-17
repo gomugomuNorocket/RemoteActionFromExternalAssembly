@@ -1,9 +1,0 @@
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\bin\Debug\ActionsScriptLibrary.dll
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\bin\Debug\ActionsScriptLibrary.pdb
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.csproj.CoreCompileInputs.cache
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.csproj.CopyComplete
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.dll
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.pdb
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\bin\Debug\log4net.dll
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\bin\Debug\log4net.xml
-C:\Users\oduss\OneDrive\Υπολογιστής\SoftoMotive2\softomotive\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.csprojAssemblyReference.cache
