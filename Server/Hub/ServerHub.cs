@@ -64,7 +64,7 @@ namespace Server.Hub
         //    }
         //    catch (Exception ex)
         //    {
-        //        log.InfoFormat("'JoinGroup' Method failed with error: '{0}'", ex.GetExceptionMessage());
+        //        log.ErrorFormat("'JoinGroup' Method failed with error: '{0}'", ex.GetExceptionMessage());
         //    }
         //}
         ///// <summary>
@@ -81,7 +81,7 @@ namespace Server.Hub
         //    }
         //    catch (Exception ex)
         //    {
-        //        log.InfoFormat("'LeaveGroup' Method with params = group: '{0}' failed with error: '{2}'", group, ex.GetExceptionMessage());
+        //        log.ErrorFormat("'LeaveGroup' Method with params = group: '{0}' failed with error: '{2}'", group, ex.GetExceptionMessage());
         //    }
         //}
         /// <summary>
@@ -110,7 +110,7 @@ namespace Server.Hub
             }
             catch (Exception ex)
             {
-                log.InfoFormat("'RequestActionScript' Method failed with error: '{0}'", ex.GetExceptionMessage());
+                log.ErrorFormat("'RequestActionScript' Method failed with error: '{0}'", ex.GetExceptionMessage());
             }
 
         }
@@ -137,7 +137,7 @@ namespace Server.Hub
             }
             catch (Exception ex)
             {
-                log.InfoFormat("'SetActionResultResponse' Method failed with error: '{0}'", ex.GetExceptionMessage());
+                log.ErrorFormat("'SetActionResultResponse' Method failed with error: '{0}'", ex.GetExceptionMessage());
             }
         }
 
@@ -163,7 +163,7 @@ namespace Server.Hub
             }
             catch (Exception ex)
             {
-                log.InfoFormat("'RequestActionScriptCommands' Method failed with error: '{0}'", ex.GetExceptionMessage());
+                log.ErrorFormat("'RequestActionScriptCommands' Method failed with error: '{0}'", ex.GetExceptionMessage());
             }            
         }
 
@@ -215,7 +215,7 @@ namespace Server.Hub
             }
             catch (Exception ex)
             {
-                log.InfoFormat("'TriggerActionScriptMethod' Method failed with error: '{0}'", ex.GetExceptionMessage());
+                log.ErrorFormat("'TriggerActionScriptMethod' Method failed with error: '{0}'", ex.GetExceptionMessage());
             }
         }
 
