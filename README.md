@@ -7,7 +7,7 @@ The whole solution governed by a command-and-control philosophy. The server know
 
 The client receives the assembly of commands from the server and the server may require some action to be performed.
 
-For more details see 'ReadMe.pdf'
+For more details see 'ReadMe.pdf' and 'demo.png'
 
 
 Test scenario:
