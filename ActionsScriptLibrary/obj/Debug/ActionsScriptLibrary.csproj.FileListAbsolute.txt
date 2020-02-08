@@ -1,0 +1,6 @@
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\bin\Debug\ActionsScriptLibrary.dll
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\bin\Debug\ActionsScriptLibrary.pdb
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.csprojAssemblyReference.cache
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.dll
+C:\Users\oduss\OneDrive\Υπολογιστής\WORK\GITHUB\RemoteActionFromExternalAssembly\ActionsScriptLibrary\obj\Debug\ActionsScriptLibrary.pdb
