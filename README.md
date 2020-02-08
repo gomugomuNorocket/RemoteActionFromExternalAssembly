@@ -12,3 +12,5 @@ For more details see 'ReadMe.pdf'
 
 Test scenario:
 build solution, run multiple project and type 'SelectWindow Chrome' on the server to invoke the action on the client.
+
+
